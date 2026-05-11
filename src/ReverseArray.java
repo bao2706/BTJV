@@ -20,7 +20,7 @@ public class ReverseArray {
             i++;
         }
         System.out.printf("%-20s%s", "Elements in array: ", "");
-        for (int j = 0; j < array.length; j++) {
+        for(int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
         for (int j = 0; j < array.length / 2; j++) {
