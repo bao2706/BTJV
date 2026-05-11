@@ -8,12 +8,12 @@ public class RemoveElement {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
         }
-        System.out.println("");
+        System.out.println(" ");
         System.out.print("index mang:  ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(i + "\t");
         }
-        System.out.println("");
+        System.out.println(" ");
         System.out.print("nhap so ban muon xoa: ");
         int elm_del = input.nextInt();
         for(int i =0;i < arr.length;i++) {
